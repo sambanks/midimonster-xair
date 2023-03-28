@@ -2,10 +2,16 @@
 
 ## Description
 This repo contains the config files to translate midi commands to Behringer
-X-Air compatible OSC commands.
+X-Air compatible OSC commands. This config should mostly work for X32 mixers
+as well.
 
-They are my config files that I use to control an XR12 from a BCR2000 but 
-should be straight forward to modify for other models.
+The code needs to be run on a computer that is connected to both the controller
+and the X-AIR mixer via midi, ethernet, or usb.
+
+In my setup, I have midimonster running on a Raspberry pi 3, that is connected
+to the bcr2000 by USB. It then connects to the XR12 over wifi.
+
+The config files should be straight forward to modify for other models and setups.
 
 ## Links
 
